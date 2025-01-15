@@ -35,7 +35,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button className='button'>
-                <img width={11} height={11} src="/img/plus.svg" alt="" />
+                <img width={12} height={11} src="/img/plus.svg" alt="" />
               </button>
             </div>
           </div>
