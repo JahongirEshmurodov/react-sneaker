@@ -59,7 +59,7 @@ function Drawer() {
         <li className='d-flex'>
           <span>Итого: </span>
           <div></div>
-          <b>21 498 руб. </b>
+          <b>21 698 руб. </b>
           </li>
         <li className='d-flex'>
           <span>Налог 5%: </span>
