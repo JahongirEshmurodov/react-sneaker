@@ -14,6 +14,7 @@ function Header() {
       <li className='mr-30'>
       <img width={18} height={18} src="/img/korzinka.svg" />
         <span>1205 руб.</span>
+        
       </li>
       <li>
       <img width={18} height={18} src="/img/human.svg" />

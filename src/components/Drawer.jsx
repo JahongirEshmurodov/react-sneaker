@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Drawer() {
+  const [menu, setmenu] = useState(false)
   return (
-    <div style={{display: 'flex'}} className="overlay">
+    <div style={{display: 'none'}} className="overlay">
     <div className="drawer d-flex flex-column">
         <h2 className='mb-30 d-flex justify-between'>Корзина  <img className='removeBtn' src="/img/remove.svg" alt="" /></h2>
         
