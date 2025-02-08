@@ -68,8 +68,9 @@ function Drawer() {
       </ul>
       </div>
       <button className='greenButton'>Оформить заказ <img src="/img/arrow.svg" alt="" /></button>
-      
+    
      </div>
+     <div></div>
     </div>
   )
 }
