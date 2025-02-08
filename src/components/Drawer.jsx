@@ -2,7 +2,7 @@ import React from 'react'
 
 function Drawer() {
   return (
-    <div style={{display: 'none'}} className="overlay">
+    <div style={{display: 'flex'}} className="overlay">
     <div className="drawer d-flex flex-column">
         <h2 className='mb-30 d-flex justify-between'>Корзина  <img className='removeBtn' src="/img/remove.svg" alt="" /></h2>
         
@@ -23,7 +23,7 @@ function Drawer() {
 
       <div className='mr-20'>
       <p className='mb-5'>Мужские Кроссовки Nike Air Max 270</p>
-      <b>12 999 руб.</b>
+      <b>12 999 руб .</b>
       </div>
         <div>
           <img className='removeBtn' src="/img/remove.svg" alt="" />

@@ -37,8 +37,9 @@ function App() {
         </div>
         </div>
            <div className="d-flex">
-         {arr.map((obj)=>(
-          <Card title={obj.title} price={obj.price} imageUrl={obj.imageUrl}/>
+         {arr.map((obj, index)=>(
+          <Card key={index} onclick={()=> console.log(obj) 
+          } title={obj.title} price={obj.price} imageUrl={obj.imageUrl} />
           ))}
            </div>
 
