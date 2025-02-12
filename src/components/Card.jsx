@@ -24,7 +24,7 @@ function Card(props) {
           className="cu-p"
           onClick={onClickPlus}
           src={IsAdded ? "/img/btn-checked.svg" : "/img/plus-btn.svg"}
-          alt=""
+          alt="added"
         />
       </div>
     </div>
