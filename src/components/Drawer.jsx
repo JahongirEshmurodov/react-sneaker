@@ -10,7 +10,7 @@ function Drawer(props) {
             onClick={props.offClickCart}
             className="removeBtn"
             src="/img/remove.svg"
-            alt=""
+            alt="remove btn"
           />
         </h2>
 
